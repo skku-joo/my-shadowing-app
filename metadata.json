@@ -1,0 +1,6 @@
+{
+  "name": "Shadowpop! - Movie-Clip Shadowing App",
+  "description": "Movie-clip English shadowing practice app for Zootopia (Judy's First Night).",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
