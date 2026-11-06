@@ -70,7 +70,7 @@ export default function App() {
 
   if (!isLoaded) {
     return (
-      <div className="min-h-screen flex items-center justify-center bg-amber-50/40 text-stone-600">
+      <div className="min-h-screen flex items-center justify-center bg-emerald-50/70 text-stone-600">
         <div className="flex flex-col items-center gap-3">
           <div className="w-8 h-8 border-3 border-emerald-600 border-t-transparent rounded-full animate-spin" />
           <p className="text-sm font-semibold">Starting Shadowpop! ...</p>
@@ -80,11 +80,11 @@ export default function App() {
   }
 
   return (
-    <div className="min-h-screen bg-stone-100 flex flex-col items-center justify-start sm:py-6">
+    <div className="min-h-screen bg-linear-to-b from-emerald-100/50 via-lime-50/60 to-emerald-100/40 flex flex-col items-center justify-start sm:py-6">
       {/* Mobile-first centered frame (Max-width 480px per PRD 8) */}
-      <div className="w-full max-w-[480px] min-h-screen sm:min-h-0 bg-stone-50 sm:rounded-3xl sm:shadow-xl sm:border sm:border-stone-200/90 flex flex-col overflow-hidden relative">
+      <div className="w-full max-w-[480px] min-h-screen sm:min-h-0 bg-[#f4fbf5] sm:rounded-3xl sm:shadow-xl sm:border sm:border-emerald-200/80 flex flex-col overflow-hidden relative">
         {/* Subtle top header strip for navigation context */}
-        <header className="px-4 py-3 bg-white/95 border-b border-stone-200/80 sticky top-0 z-30 flex items-center justify-between backdrop-blur-xs select-none">
+        <header className="px-4 py-3 bg-white/95 border-b border-emerald-100/90 sticky top-0 z-30 flex items-center justify-between backdrop-blur-xs select-none">
           <button
             onClick={() => setScreen('start')}
             className="flex items-center gap-1.5 font-display font-extrabold text-stone-900 text-lg tracking-tight hover:opacity-85 transition-opacity cursor-pointer"
